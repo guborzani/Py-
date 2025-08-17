@@ -3,7 +3,7 @@ import streamlit as st
 st.title("Cadastro de Clientes")
 
 nome = st.text_input("Digite o nome do Cliente")
-endereco = st.text_input("Digite o endereço do ")
+endereco = st.text_input("Digite o endereço")
 dt = st.date_input ("Escolha a data de Nascimento")
 tipo = st.selectbox ("Tipo de Cliente" , ["Pessoa Física", "Pessoa Jurídica"])
 
